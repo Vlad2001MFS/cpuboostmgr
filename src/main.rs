@@ -61,7 +61,7 @@ impl Config {
 impl Default for Config {
     fn default() -> Config {
         Config {
-            update_time: Duration::from_millis(1000),
+            update_time: Duration::from_millis(100),
             max_temp: 75.0,
             min_temp: 65.0,
             cpu_boost_file: "/sys/devices/system/cpu/cpufreq/boost".to_owned(),
